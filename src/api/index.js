@@ -268,6 +268,7 @@ API.updateTicker = (id, data) => {
   return API.patch(`/ticker/${id}`, data);
 };
 
+
 API.deleteTicker = (id) => {
   return API.delete(`/ticker/${id}`);
 };
